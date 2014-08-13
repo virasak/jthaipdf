@@ -47,7 +47,8 @@ public class ThaiChunk extends Chunk {
 	}
 
 	public ThaiChunk(Chunk ck) {
-		this(ck.getContent(), ck.getFont());
+		super(ck);
+		manageContent();
 	}
 
 
