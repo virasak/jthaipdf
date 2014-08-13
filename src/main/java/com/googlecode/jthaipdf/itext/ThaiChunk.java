@@ -31,10 +31,6 @@ import com.lowagie.text.Font;
 
 public class ThaiChunk extends Chunk {
 
-	public ThaiChunk() {
-		super();
-	}
-
 	public ThaiChunk(char c, Font font) {
 		super(c, font);
 		manageContent();
